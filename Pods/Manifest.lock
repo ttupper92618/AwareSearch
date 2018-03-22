@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.7.0)
+  - EasyTipView (1.0.2)
+  - M13Checkbox (3.2.2)
+  - SCLAlertView (0.8)
+  - SVProgressHUD (2.2.5)
+  - SwiftIconFont (2.7.3)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftVideoBackground (3.0.0)
+  - SwiftyJSON (4.0.0)
+  - WKWebViewJavascriptBridge (1.1.0)
+  - WVCheckMark (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - EasyTipView (~> 1.0.2)
+  - M13Checkbox
+  - SCLAlertView
+  - SVProgressHUD
+  - SwiftIconFont
+  - SwiftKeychainWrapper
+  - SwiftVideoBackground (~> 3.0)
+  - SwiftyJSON
+  - WKWebViewJavascriptBridge (~> 1.1)
+  - WVCheckMark
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  EasyTipView: b93a19be981cc2221d6d7191d49872f547e0bebf
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftIconFont: ebd8ee931a1e7072b61a87aec53f3a0786ef7f2b
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftVideoBackground: 15c69b74458ad57f123c52f55a5bf6865eaf4eae
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  WKWebViewJavascriptBridge: 8da532409bc489ba2c0a69cf38e5d1cd49e3d5e4
+  WVCheckMark: 8013b1117f1a6be4b719e43117c6659925189518
+
+PODFILE CHECKSUM: cf032577098862d13099211325b564396e0363d3
+
+COCOAPODS: 1.4.0
