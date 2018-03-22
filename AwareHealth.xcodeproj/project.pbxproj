@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0AF8A2201AD3D000DCA081 /* auiCredentialsPrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF8A1201AD3D000DCA081 /* auiCredentialsPrefsViewController.swift */; };
+		1A0AF8A8201BA95100DCA081 /* auiKeyHelperPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF8A7201BA95100DCA081 /* auiKeyHelperPageViewController.swift */; };
+		1A0AF8AA201BAD1000DCA081 /* auiURLPrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF8A9201BAD1000DCA081 /* auiURLPrefsViewController.swift */; };
 		1A1401491FED826A0051F302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1401481FED826A0051F302 /* AppDelegate.swift */; };
 		1A14014B1FED826A0051F302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14014A1FED826A0051F302 /* ViewController.swift */; };
 		1A14014E1FED826A0051F302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A14014C1FED826A0051F302 /* Main.storyboard */; };
-		1A1401511FED826A0051F302 /* AwareHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A14014F1FED826A0051F302 /* AwareHealth.xcdatamodeld */; };
 		1A1401531FED826A0051F302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1401521FED826A0051F302 /* Assets.xcassets */; };
 		1A1401561FED826A0051F302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1401541FED826A0051F302 /* LaunchScreen.storyboard */; };
 		1A1401611FED826B0051F302 /* AwareHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1401601FED826A0051F302 /* AwareHealthTests.swift */; };
 		1A14016C1FED826B0051F302 /* AwareHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14016B1FED826B0051F302 /* AwareHealthUITests.swift */; };
+		1A17F4B82048D562006CF93A /* auiPinPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F4B72048D562006CF93A /* auiPinPadButton.swift */; };
+		1A3323652003E8A0000F3DAF /* auiDataChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3323642003E8A0000F3DAF /* auiDataChannel.swift */; };
+		1A3323672003E928000F3DAF /* auiAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3323662003E928000F3DAF /* auiAuthenticationHandler.swift */; };
+		1A55E40D20095FD000CD5B71 /* LogFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E40920095FCF00CD5B71 /* LogFileReader.swift */; };
+		1A55E40E20095FD000CD5B71 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E40A20095FD000CD5B71 /* RestClient.swift */; };
+		1A55E40F20095FD000CD5B71 /* SyncConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E40B20095FD000CD5B71 /* SyncConfigData.swift */; };
+		1A55E41020095FD000CD5B71 /* OAuthTokenDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E40C20095FD000CD5B71 /* OAuthTokenDTO.swift */; };
+		1A55E41620095FE300CD5B71 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41320095FE300CD5B71 /* CocoaLumberjackSwift.framework */; };
+		1A55E4172009605A00CD5B71 /* AwpLocationEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41220095FE300CD5B71 /* AwpLocationEngine.framework */; };
+		1A55E4182009605A00CD5B71 /* AwpLocationEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41220095FE300CD5B71 /* AwpLocationEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A55E4192009605A00CD5B71 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41120095FE200CD5B71 /* CocoaLumberjack.framework */; };
+		1A55E41A2009605A00CD5B71 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41120095FE200CD5B71 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A55E41C2009605A00CD5B71 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55E41320095FE300CD5B71 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A55E41F2009694D00CD5B71 /* auiBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E41E2009694D00CD5B71 /* auiBeaconManager.swift */; };
+		1A5CAF452058391700614CF7 /* auiJSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CAF442058391700614CF7 /* auiJSBridge.swift */; };
+		1A5DE069202D1326005D8763 /* auiFailureTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DE068202D1326005D8763 /* auiFailureTabsViewController.swift */; };
+		1A6FB4B6205074EA00A1E415 /* auiPinAuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FB4B5205074EA00A1E415 /* auiPinAuthorizationController.swift */; };
+		1A84579B20237CAD00176E29 /* auiLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84579A20237CAC00176E29 /* auiLoginViewController.swift */; };
+		1A84579D2027C57C00176E29 /* auiKeyHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84579C2027C57C00176E29 /* auiKeyHelperViewController.swift */; };
+		1A8457A32029304F00176E29 /* auiKeyHelperOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8457A22029304F00176E29 /* auiKeyHelperOneViewController.swift */; };
+		1A8457A52029308500176E29 /* auiKeyHelperTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8457A42029308500176E29 /* auiKeyHelperTwoViewController.swift */; };
+		1A8457A72029309700176E29 /* auiKeyHelperThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8457A62029309700176E29 /* auiKeyHelperThreeViewController.swift */; };
+		1A847C39200ED2930007A74B /* AwareHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A847C37200ED2930007A74B /* AwareHealth.xcdatamodeld */; };
+		1A847C9F200EF74D0007A74B /* auiCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A847C9E200EF74D0007A74B /* auiCoreDataHandler.swift */; };
+		1A847CA320117C500007A74B /* auiUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A847CA220117C4E0007A74B /* auiUtility.swift */; };
+		1A847CA520117F3C0007A74B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A847CA420117F3C0007A74B /* Reachability.swift */; };
+		1A9057982050B5E30047DDDD /* auiBiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9057972050B5E30047DDDD /* auiBiometricAuthentication.swift */; };
+		1A90579A2051CFB10047DDDD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9057992051CFB10047DDDD /* LocalAuthentication.framework */; };
+		1ABDF1002055FA24002D0C51 /* auiKeyServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDF0FF2055FA24002D0C51 /* auiKeyServer.swift */; };
+		1ACE2351205F3F3900E84872 /* auiBackgroundLoop.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE2350205F3F3800E84872 /* auiBackgroundLoop.mov */; };
+		1AD74FC22020E4AD00334D1C /* auiAuthMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD74FC12020E4AD00334D1C /* auiAuthMethodsViewController.swift */; };
+		1AD8B0962049DD2D00C771B8 /* auiPinPadBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8B0952049DD2D00C771B8 /* auiPinPadBullet.swift */; };
+		1AD8B098204DE5B300C771B8 /* auiRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8B097204DE5B300C771B8 /* auiRoundedButton.swift */; };
+		1AF60A6A2044E12E007BE1CF /* auiPinEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF60A692044E12E007BE1CF /* auiPinEntryViewController.swift */; };
+		1AF60A6C2044E1EF007BE1CF /* auiPinConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF60A6B2044E1EF007BE1CF /* auiPinConfigurationViewController.swift */; };
+		2D5A60110A7F6E019FDF1505 /* Pods_AwareHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D86E6B67DEC180C80CD198 /* Pods_AwareHealth.framework */; };
+		3DCFA190A92D9F504897B653 /* Pods_AwareHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CFC843EC1F4A7DA7B2F708 /* Pods_AwareHealthUITests.framework */; };
+		DC0BA9633FDA0002C3AB3758 /* Pods_AwareHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E565F171E2E3E5E714E5FC6 /* Pods_AwareHealthTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +74,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A55E41D2009605A00CD5B71 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A55E41A2009605A00CD5B71 /* CocoaLumberjack.framework in Embed Frameworks */,
+				1A55E4182009605A00CD5B71 /* AwpLocationEngine.framework in Embed Frameworks */,
+				1A55E41C2009605A00CD5B71 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		06B34A5857EC14A593376D48 /* Pods-AwareHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealthTests/Pods-AwareHealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E565F171E2E3E5E714E5FC6 /* Pods_AwareHealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwareHealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D0527401F42B0309679DDD /* Pods-AwareHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealthUITests/Pods-AwareHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A0AF8A1201AD3D000DCA081 /* auiCredentialsPrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiCredentialsPrefsViewController.swift; sourceTree = "<group>"; };
+		1A0AF8A7201BA95100DCA081 /* auiKeyHelperPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyHelperPageViewController.swift; sourceTree = "<group>"; };
+		1A0AF8A9201BAD1000DCA081 /* auiURLPrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = auiURLPrefsViewController.swift; sourceTree = "<group>"; };
 		1A1401451FED826A0051F302 /* AwareHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwareHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1401481FED826A0051F302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A14014A1FED826A0051F302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A14014D1FED826A0051F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A1401501FED826A0051F302 /* AwareHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AwareHealth.xcdatamodel; sourceTree = "<group>"; };
 		1A1401521FED826A0051F302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1401551FED826A0051F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1401571FED826A0051F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +110,44 @@
 		1A1401671FED826B0051F302 /* AwareHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwareHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A14016B1FED826B0051F302 /* AwareHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwareHealthUITests.swift; sourceTree = "<group>"; };
 		1A14016D1FED826B0051F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A17F4B72048D562006CF93A /* auiPinPadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiPinPadButton.swift; sourceTree = "<group>"; };
+		1A3323642003E8A0000F3DAF /* auiDataChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiDataChannel.swift; sourceTree = "<group>"; };
+		1A3323662003E928000F3DAF /* auiAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiAuthenticationHandler.swift; sourceTree = "<group>"; };
+		1A55E40920095FCF00CD5B71 /* LogFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFileReader.swift; sourceTree = "<group>"; };
+		1A55E40A20095FD000CD5B71 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		1A55E40B20095FD000CD5B71 /* SyncConfigData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncConfigData.swift; sourceTree = "<group>"; };
+		1A55E40C20095FD000CD5B71 /* OAuthTokenDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthTokenDTO.swift; sourceTree = "<group>"; };
+		1A55E41120095FE200CD5B71 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		1A55E41220095FE300CD5B71 /* AwpLocationEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AwpLocationEngine.framework; sourceTree = "<group>"; };
+		1A55E41320095FE300CD5B71 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		1A55E41E2009694D00CD5B71 /* auiBeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiBeaconManager.swift; sourceTree = "<group>"; };
+		1A5CAF442058391700614CF7 /* auiJSBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiJSBridge.swift; sourceTree = "<group>"; };
+		1A5DE068202D1326005D8763 /* auiFailureTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiFailureTabsViewController.swift; sourceTree = "<group>"; };
+		1A6FB4B5205074EA00A1E415 /* auiPinAuthorizationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = auiPinAuthorizationController.swift; sourceTree = "<group>"; };
+		1A84579A20237CAC00176E29 /* auiLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiLoginViewController.swift; sourceTree = "<group>"; };
+		1A84579C2027C57C00176E29 /* auiKeyHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyHelperViewController.swift; sourceTree = "<group>"; };
+		1A8457A22029304F00176E29 /* auiKeyHelperOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyHelperOneViewController.swift; sourceTree = "<group>"; };
+		1A8457A42029308500176E29 /* auiKeyHelperTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyHelperTwoViewController.swift; sourceTree = "<group>"; };
+		1A8457A62029309700176E29 /* auiKeyHelperThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyHelperThreeViewController.swift; sourceTree = "<group>"; };
+		1A847C38200ED2930007A74B /* AwareHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AwareHealth.xcdatamodel; sourceTree = "<group>"; };
+		1A847C9E200EF74D0007A74B /* auiCoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = auiCoreDataHandler.swift; sourceTree = "<group>"; };
+		1A847CA220117C4E0007A74B /* auiUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiUtility.swift; sourceTree = "<group>"; };
+		1A847CA420117F3C0007A74B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1A9057972050B5E30047DDDD /* auiBiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiBiometricAuthentication.swift; sourceTree = "<group>"; };
+		1A9057992051CFB10047DDDD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		1ABDF0FF2055FA24002D0C51 /* auiKeyServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiKeyServer.swift; sourceTree = "<group>"; };
+		1ACE2350205F3F3800E84872 /* auiBackgroundLoop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = auiBackgroundLoop.mov; sourceTree = "<group>"; };
+		1AD74FC12020E4AD00334D1C /* auiAuthMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiAuthMethodsViewController.swift; sourceTree = "<group>"; };
+		1AD8B0952049DD2D00C771B8 /* auiPinPadBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiPinPadBullet.swift; sourceTree = "<group>"; };
+		1AD8B097204DE5B300C771B8 /* auiRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiRoundedButton.swift; sourceTree = "<group>"; };
+		1AF60A692044E12E007BE1CF /* auiPinEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiPinEntryViewController.swift; sourceTree = "<group>"; };
+		1AF60A6B2044E1EF007BE1CF /* auiPinConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auiPinConfigurationViewController.swift; sourceTree = "<group>"; };
+		39713D8B9B81EE5BB97A28E6 /* Pods-AwareHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealth/Pods-AwareHealth.release.xcconfig"; sourceTree = "<group>"; };
+		61C37C0F6307138B145373B6 /* Pods-AwareHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealth/Pods-AwareHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		69874F81568EEB7DF07E55F1 /* Pods-AwareHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealthUITests/Pods-AwareHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		776E541DAADE7587BC6E15BE /* Pods-AwareHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwareHealthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwareHealthTests/Pods-AwareHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83CFC843EC1F4A7DA7B2F708 /* Pods_AwareHealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwareHealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D86E6B67DEC180C80CD198 /* Pods_AwareHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwareHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +155,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A90579A2051CFB10047DDDD /* LocalAuthentication.framework in Frameworks */,
+				1A55E4192009605A00CD5B71 /* CocoaLumberjack.framework in Frameworks */,
+				1A55E4172009605A00CD5B71 /* AwpLocationEngine.framework in Frameworks */,
+				1A55E41620095FE300CD5B71 /* CocoaLumberjackSwift.framework in Frameworks */,
+				2D5A60110A7F6E019FDF1505 /* Pods_AwareHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0BA9633FDA0002C3AB3758 /* Pods_AwareHealthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCFA190A92D9F504897B653 /* Pods_AwareHealthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +185,16 @@
 		1A14013C1FED826A0051F302 = {
 			isa = PBXGroup;
 			children = (
+				1ACE2350205F3F3800E84872 /* auiBackgroundLoop.mov */,
+				1A55E41220095FE300CD5B71 /* AwpLocationEngine.framework */,
+				1A55E41120095FE200CD5B71 /* CocoaLumberjack.framework */,
+				1A55E41320095FE300CD5B71 /* CocoaLumberjackSwift.framework */,
 				1A1401471FED826A0051F302 /* AwareHealth */,
 				1A14015F1FED826A0051F302 /* AwareHealthTests */,
 				1A14016A1FED826B0051F302 /* AwareHealthUITests */,
 				1A1401461FED826A0051F302 /* Products */,
+				3D73DCD22C1A054809FDF443 /* Pods */,
+				45036686E3A10117FF68BA66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +211,42 @@
 		1A1401471FED826A0051F302 /* AwareHealth */ = {
 			isa = PBXGroup;
 			children = (
+				1A0AF8A9201BAD1000DCA081 /* auiURLPrefsViewController.swift */,
+				1A847C9E200EF74D0007A74B /* auiCoreDataHandler.swift */,
+				1A847C37200ED2930007A74B /* AwareHealth.xcdatamodeld */,
+				1A55E40920095FCF00CD5B71 /* LogFileReader.swift */,
+				1A55E40C20095FD000CD5B71 /* OAuthTokenDTO.swift */,
+				1A55E40A20095FD000CD5B71 /* RestClient.swift */,
+				1A55E40B20095FD000CD5B71 /* SyncConfigData.swift */,
 				1A1401481FED826A0051F302 /* AppDelegate.swift */,
 				1A14014A1FED826A0051F302 /* ViewController.swift */,
 				1A14014C1FED826A0051F302 /* Main.storyboard */,
 				1A1401521FED826A0051F302 /* Assets.xcassets */,
 				1A1401541FED826A0051F302 /* LaunchScreen.storyboard */,
 				1A1401571FED826A0051F302 /* Info.plist */,
-				1A14014F1FED826A0051F302 /* AwareHealth.xcdatamodeld */,
+				1A3323642003E8A0000F3DAF /* auiDataChannel.swift */,
+				1A3323662003E928000F3DAF /* auiAuthenticationHandler.swift */,
+				1A55E41E2009694D00CD5B71 /* auiBeaconManager.swift */,
+				1A847CA220117C4E0007A74B /* auiUtility.swift */,
+				1A847CA420117F3C0007A74B /* Reachability.swift */,
+				1A0AF8A1201AD3D000DCA081 /* auiCredentialsPrefsViewController.swift */,
+				1A0AF8A7201BA95100DCA081 /* auiKeyHelperPageViewController.swift */,
+				1AD74FC12020E4AD00334D1C /* auiAuthMethodsViewController.swift */,
+				1A84579A20237CAC00176E29 /* auiLoginViewController.swift */,
+				1A84579C2027C57C00176E29 /* auiKeyHelperViewController.swift */,
+				1A8457A22029304F00176E29 /* auiKeyHelperOneViewController.swift */,
+				1A8457A42029308500176E29 /* auiKeyHelperTwoViewController.swift */,
+				1A8457A62029309700176E29 /* auiKeyHelperThreeViewController.swift */,
+				1A5DE068202D1326005D8763 /* auiFailureTabsViewController.swift */,
+				1AF60A692044E12E007BE1CF /* auiPinEntryViewController.swift */,
+				1AF60A6B2044E1EF007BE1CF /* auiPinConfigurationViewController.swift */,
+				1A6FB4B5205074EA00A1E415 /* auiPinAuthorizationController.swift */,
+				1A17F4B72048D562006CF93A /* auiPinPadButton.swift */,
+				1AD8B0952049DD2D00C771B8 /* auiPinPadBullet.swift */,
+				1AD8B097204DE5B300C771B8 /* auiRoundedButton.swift */,
+				1A9057972050B5E30047DDDD /* auiBiometricAuthentication.swift */,
+				1ABDF0FF2055FA24002D0C51 /* auiKeyServer.swift */,
+				1A5CAF442058391700614CF7 /* auiJSBridge.swift */,
 			);
 			path = AwareHealth;
 			sourceTree = "<group>";
@@ -128,6 +269,30 @@
 			path = AwareHealthUITests;
 			sourceTree = "<group>";
 		};
+		3D73DCD22C1A054809FDF443 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C37C0F6307138B145373B6 /* Pods-AwareHealth.debug.xcconfig */,
+				39713D8B9B81EE5BB97A28E6 /* Pods-AwareHealth.release.xcconfig */,
+				776E541DAADE7587BC6E15BE /* Pods-AwareHealthTests.debug.xcconfig */,
+				06B34A5857EC14A593376D48 /* Pods-AwareHealthTests.release.xcconfig */,
+				69874F81568EEB7DF07E55F1 /* Pods-AwareHealthUITests.debug.xcconfig */,
+				10D0527401F42B0309679DDD /* Pods-AwareHealthUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45036686E3A10117FF68BA66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9057992051CFB10047DDDD /* LocalAuthentication.framework */,
+				A4D86E6B67DEC180C80CD198 /* Pods_AwareHealth.framework */,
+				0E565F171E2E3E5E714E5FC6 /* Pods_AwareHealthTests.framework */,
+				83CFC843EC1F4A7DA7B2F708 /* Pods_AwareHealthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +300,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1401701FED826B0051F302 /* Build configuration list for PBXNativeTarget "AwareHealth" */;
 			buildPhases = (
+				0DAFE012D4DE82296B4AC2C5 /* [CP] Check Pods Manifest.lock */,
 				1A1401411FED826A0051F302 /* Sources */,
 				1A1401421FED826A0051F302 /* Frameworks */,
 				1A1401431FED826A0051F302 /* Resources */,
+				1A55E41D2009605A00CD5B71 /* Embed Frameworks */,
+				07E8DD4CECB4C73032BA1D5F /* [CP] Embed Pods Frameworks */,
+				356A19C22EA2312E349C9393 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1401731FED826B0051F302 /* Build configuration list for PBXNativeTarget "AwareHealthTests" */;
 			buildPhases = (
+				A72097BEB7ACDA2AD6119C5D /* [CP] Check Pods Manifest.lock */,
 				1A1401581FED826A0051F302 /* Sources */,
 				1A1401591FED826A0051F302 /* Frameworks */,
 				1A14015A1FED826A0051F302 /* Resources */,
+				732958D44941E6D64DF389A8 /* [CP] Embed Pods Frameworks */,
+				7BD8DA1EACE8278DA5136DA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1401761FED826B0051F302 /* Build configuration list for PBXNativeTarget "AwareHealthUITests" */;
 			buildPhases = (
+				26BCB79B6043F7F164D446E1 /* [CP] Check Pods Manifest.lock */,
 				1A1401631FED826B0051F302 /* Sources */,
 				1A1401641FED826B0051F302 /* Frameworks */,
 				1A1401651FED826B0051F302 /* Resources */,
+				6CEA6DA361628F4339AD7C03 /* [CP] Embed Pods Frameworks */,
+				57FAA6B2FF3186076C5E1539 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACE2351205F3F3900E84872 /* auiBackgroundLoop.mov in Resources */,
 				1A1401561FED826A0051F302 /* LaunchScreen.storyboard in Resources */,
 				1A1401531FED826A0051F302 /* Assets.xcassets in Resources */,
 				1A14014E1FED826A0051F302 /* Main.storyboard in Resources */,
@@ -257,14 +433,213 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07E8DD4CECB4C73032BA1D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealth/Pods-AwareHealth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/WVCheckMark/WVCheckMark.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKWebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WVCheckMark.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealth/Pods-AwareHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DAFE012D4DE82296B4AC2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwareHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26BCB79B6043F7F164D446E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwareHealthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356A19C22EA2312E349C9393 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealth/Pods-AwareHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FAA6B2FF3186076C5E1539 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealthUITests/Pods-AwareHealthUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CEA6DA361628F4339AD7C03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealthUITests/Pods-AwareHealthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732958D44941E6D64DF389A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealthTests/Pods-AwareHealthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD8DA1EACE8278DA5136DA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwareHealthTests/Pods-AwareHealthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72097BEB7ACDA2AD6119C5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwareHealthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A1401411FED826A0051F302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A847CA520117F3C0007A74B /* Reachability.swift in Sources */,
+				1AD8B0962049DD2D00C771B8 /* auiPinPadBullet.swift in Sources */,
+				1A17F4B82048D562006CF93A /* auiPinPadButton.swift in Sources */,
+				1A84579D2027C57C00176E29 /* auiKeyHelperViewController.swift in Sources */,
+				1A8457A52029308500176E29 /* auiKeyHelperTwoViewController.swift in Sources */,
+				1A5DE069202D1326005D8763 /* auiFailureTabsViewController.swift in Sources */,
+				1A55E40E20095FD000CD5B71 /* RestClient.swift in Sources */,
+				1A8457A32029304F00176E29 /* auiKeyHelperOneViewController.swift in Sources */,
+				1A55E41020095FD000CD5B71 /* OAuthTokenDTO.swift in Sources */,
+				1A3323672003E928000F3DAF /* auiAuthenticationHandler.swift in Sources */,
+				1AF60A6C2044E1EF007BE1CF /* auiPinConfigurationViewController.swift in Sources */,
+				1A6FB4B6205074EA00A1E415 /* auiPinAuthorizationController.swift in Sources */,
+				1AD74FC22020E4AD00334D1C /* auiAuthMethodsViewController.swift in Sources */,
+				1A847CA320117C500007A74B /* auiUtility.swift in Sources */,
+				1AD8B098204DE5B300C771B8 /* auiRoundedButton.swift in Sources */,
+				1A0AF8A2201AD3D000DCA081 /* auiCredentialsPrefsViewController.swift in Sources */,
+				1A9057982050B5E30047DDDD /* auiBiometricAuthentication.swift in Sources */,
 				1A14014B1FED826A0051F302 /* ViewController.swift in Sources */,
-				1A1401511FED826A0051F302 /* AwareHealth.xcdatamodeld in Sources */,
+				1A55E41F2009694D00CD5B71 /* auiBeaconManager.swift in Sources */,
+				1A55E40F20095FD000CD5B71 /* SyncConfigData.swift in Sources */,
+				1A847C9F200EF74D0007A74B /* auiCoreDataHandler.swift in Sources */,
+				1A5CAF452058391700614CF7 /* auiJSBridge.swift in Sources */,
+				1A55E40D20095FD000CD5B71 /* LogFileReader.swift in Sources */,
+				1A0AF8AA201BAD1000DCA081 /* auiURLPrefsViewController.swift in Sources */,
+				1AF60A6A2044E12E007BE1CF /* auiPinEntryViewController.swift in Sources */,
 				1A1401491FED826A0051F302 /* AppDelegate.swift in Sources */,
+				1A84579B20237CAD00176E29 /* auiLoginViewController.swift in Sources */,
+				1A0AF8A8201BA95100DCA081 /* auiKeyHelperPageViewController.swift in Sources */,
+				1A3323652003E8A0000F3DAF /* auiDataChannel.swift in Sources */,
+				1ABDF1002055FA24002D0C51 /* auiKeyServer.swift in Sources */,
+				1A847C39200ED2930007A74B /* AwareHealth.xcdatamodeld in Sources */,
+				1A8457A72029309700176E29 /* auiKeyHelperThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,36 +803,51 @@
 		};
 		1A1401711FED826B0051F302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C37C0F6307138B145373B6 /* Pods-AwareHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YA6LVZR6P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AwareHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = awp.AwareHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = awp.AwareSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1A1401721FED826B0051F302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39713D8B9B81EE5BB97A28E6 /* Pods-AwareHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YA6LVZR6P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AwareHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = awp.AwareHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = awp.AwareSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1A1401741FED826B0051F302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776E541DAADE7587BC6E15BE /* Pods-AwareHealthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +865,7 @@
 		};
 		1A1401751FED826B0051F302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B34A5857EC14A593376D48 /* Pods-AwareHealthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +883,7 @@
 		};
 		1A1401771FED826B0051F302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69874F81568EEB7DF07E55F1 /* Pods-AwareHealthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +900,7 @@
 		};
 		1A1401781FED826B0051F302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D0527401F42B0309679DDD /* Pods-AwareHealthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,12 +957,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1A14014F1FED826A0051F302 /* AwareHealth.xcdatamodeld */ = {
+		1A847C37200ED2930007A74B /* AwareHealth.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1A1401501FED826A0051F302 /* AwareHealth.xcdatamodel */,
+				1A847C38200ED2930007A74B /* AwareHealth.xcdatamodel */,
 			);
-			currentVersion = 1A1401501FED826A0051F302 /* AwareHealth.xcdatamodel */;
+			currentVersion = 1A847C38200ED2930007A74B /* AwareHealth.xcdatamodel */;
 			path = AwareHealth.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

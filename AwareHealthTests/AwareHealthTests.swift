@@ -33,4 +33,18 @@ class AwareHealthTests: XCTestCase {
         }
     }
     
+    func testUserStore() {
+        let mUserState = auiCoreDataHandler.saveUser(userName: "Bob", password: "bobbyRules!")
+        let mUser = auiCoreDataHandler.getUser()
+        print(mUserState)
+        print(mUser!)
+    }
+    
+    func testURLStore() {
+        let mBaseURLState = auiCoreDataHandler.saveBaseURL(baseURL: "https://www.foxnews.com/")
+        let mBaseURL = auiCoreDataHandler.getBaseURL()
+        print(mBaseURLState)
+        print(mBaseURL!)
+    }
+    
 }

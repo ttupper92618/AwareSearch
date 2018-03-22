@@ -1,4 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17E139j" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AUIAPIURL" representedClassName="AUIAPIURL" syncable="YES" codeGenerationType="class">
+        <attribute name="apiURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUIAppIdentity" representedClassName="AUIAppIdentity" syncable="YES" codeGenerationType="class">
+        <attribute name="auiAppAuthorized" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="auiAppKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiAppName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUIAppURL" representedClassName="AUIAppURL" syncable="YES" codeGenerationType="class">
+        <attribute name="auiBaseURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUIAuthMode" representedClassName="AUIAuthMode" syncable="YES" codeGenerationType="class">
+        <attribute name="auiAuthModeDefined" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="auiAuthPin" optional="YES" attributeType="Transformable" customClassName="[Int]" syncable="YES"/>
+        <attribute name="auiSelectedAuthMode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiSelectedAuthModeIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="AUIEndpointData" representedClassName="AUIEndpointData" syncable="YES" codeGenerationType="class">
+        <attribute name="apiURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oAuthAPIKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oAuthGrantType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oAuthID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oAuthSecret" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oAuthURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUIKeyServerOAuthData" representedClassName="AUIKeyServerOAuthData" syncable="YES" codeGenerationType="class">
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastOAuthDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="oAuthSuccessful" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="refreshToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUIOAuthData" representedClassName="AUIOAuthData" syncable="YES" codeGenerationType="class">
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="environment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOAuthDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="oAuthSuccessful" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="refreshToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AUISynchData" representedClassName="AUISynchData" syncable="YES" codeGenerationType="class">
+        <attribute name="auiAlgorithmConfig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiAreaConfig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiBeaconConfig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiFloorConfig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiLastCheckDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="auiRoomConfig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiSynchSuccessful" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="AUIUser" representedClassName="AUIUser" syncable="YES" codeGenerationType="class">
+        <attribute name="auiRememberUser" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="auiUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auiUserPassword" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AUIAPIURL" positionX="-27" positionY="45" width="128" height="60"/>
+        <element name="AUIAppIdentity" positionX="-27" positionY="36" width="128" height="90"/>
+        <element name="AUIAppURL" positionX="-45" positionY="0" width="128" height="60"/>
+        <element name="AUIAuthMode" positionX="-27" positionY="108" width="128" height="105"/>
+        <element name="AUIEndpointData" positionX="-27" positionY="45" width="128" height="135"/>
+        <element name="AUIKeyServerOAuthData" positionX="-27" positionY="108" width="128" height="135"/>
+        <element name="AUIOAuthData" positionX="-9" positionY="108" width="128" height="150"/>
+        <element name="AUISynchData" positionX="-18" positionY="81" width="128" height="150"/>
+        <element name="AUIUser" positionX="-18" positionY="36" width="128" height="90"/>
+    </elements>
 </model>
